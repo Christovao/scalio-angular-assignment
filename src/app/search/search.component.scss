@@ -1,0 +1,31 @@
+.main-wrapper {
+	height: 100%;
+	margin-top: 150px;
+	
+	.box {
+		opacity: 1;
+		float: left;
+		padding: 25px;
+		width: 250px;
+		
+		.search-user-form {
+			min-width: 100%;
+			max-width: 300px;
+			width: 100%;
+
+			.full-width, .btn-block {
+				width: 100%;
+			}
+		}
+	}
+
+	.disable-card {
+		pointer-events: none;
+		opacity: 0.5;
+	}
+
+	.spinner {
+		position: fixed;
+		top: 170px;
+	}
+}
